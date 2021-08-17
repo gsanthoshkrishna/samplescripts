@@ -5,7 +5,7 @@ pipeline{
       steps{
         script{
          currentBuild.displayName = "build-${env.BUILD_NUMBER}"
-         currentBuild.description = "description---${env.CHANGE_ID}"
+         currentBuild.description = "description-l--${env.CHANGE_ID}"
           echo "CHANGEID ${env.CHANGE_ID}"
          echo "build-id ${env.BUILD_ID}"
         }
