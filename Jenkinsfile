@@ -5,7 +5,7 @@ pipeline{
       steps{
         script{
           currentBuild.description = "${env.CHANGE_ID}"
-          echo 'test PR'
+          echo 'test PR2'
         }
       }
     }
